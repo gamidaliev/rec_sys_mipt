@@ -1,0 +1,62 @@
+{
+  "ItemKNN": [
+    {
+      "neighbors": 30,
+      "shrink": 10
+    },
+    {
+      "neighbors": 100,
+      "shrink": 30
+    }
+  ],
+  "iALS": [
+    {
+      "factors": 32,
+      "reg": 10.0,
+      "alpha": 20.0,
+      "iterations": 12
+    },
+    {
+      "factors": 64,
+      "reg": 20.0,
+      "alpha": 20.0,
+      "iterations": 12
+    }
+  ],
+  "EASE": [
+    {
+      "reg": 100.0
+    },
+    {
+      "reg": 500.0
+    }
+  ],
+  "FM": [
+    {
+      "factors": 16,
+      "lr": 0.04,
+      "epochs": 12
+    },
+    {
+      "factors": 32,
+      "lr": 0.04,
+      "epochs": 12
+    }
+  ],
+  "CustomALS": [
+    {
+      "alpha": 20.0,
+      "factors": 64,
+      "iterations": 12,
+      "reg": 20.0,
+      "half_life": 90
+    },
+    {
+      "alpha": 20.0,
+      "factors": 64,
+      "iterations": 12,
+      "reg": 20.0,
+      "half_life": 365
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "raw_rows": 198502,
+  "raw_users": 22363,
+  "raw_items": 12101,
+  "missing": {
+    "user_id": 0,
+    "item_id": 0,
+    "rating": 0,
+    "timestamp": 0
+  },
+  "pair_duplicates": 0,
+  "clean_rows": 198502,
+  "selected_rows": 113185,
+  "users": 15416,
+  "items": 5000,
+  "excluded_rows": 85317,
+  "excluded_cold_user_rows": 47952,
+  "excluded_item_rows_among_warm_users": 37365,
+  "source_metadata_rows": 259204,
+  "duplicate_selected_metadata": 0,
+  "metadata_coverage": 1.0,
+  "hashes": {
+    "reviews_Beauty_5.json.gz": "e5925ec99023f1dc9c7d3dff7ef34cfeacd40d1b981b5525e1e4ba9c8abc18fe",
+    "meta_Beauty.json.gz": "c7977dc0e0ead14ac7df8c1c6de74da00e4bebfad87a0f0c5763d4c5bc9b53a0"
+  }
+}
